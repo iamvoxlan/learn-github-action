@@ -1,0 +1,7 @@
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  Sapa-Nopal-sama:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 Halo nopal-sama"
