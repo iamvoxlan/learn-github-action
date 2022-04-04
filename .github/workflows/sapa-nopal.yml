@@ -1,7 +1,10 @@
 name: Sapa Nopal
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   Sapa-Nopal-sama:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 Halo nopal-sama"
+      - run: echo "🎉 Halo nopal-sama, branch sudah dimerge ke master"
